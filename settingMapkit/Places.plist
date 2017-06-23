@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>TechWave</string>
+		<key>description</key>
+		<string>Welcome to Los TechWave!</string>
+		<key>latitude</key>
+		<real>17.448617</real>
+		<key>longitude</key>
+		<real>78.37097199999999</real>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Hyderabad</string>
+		<key>description</key>
+		<string>Welcome to Hyderabad City!</string>
+		<key>latitude</key>
+		<real>17.365445</real>
+		<key>longitude</key>
+		<real>78.514121</real>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Khammam</string>
+		<key>description</key>
+		<string>Welcome to Khammam!</string>
+		<key>latitude</key>
+		<real>17.247523</real>
+		<key>longitude</key>
+		<real>80.152838</real>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Warangal</string>
+		<key>description</key>
+		<string>Welcome to Los Warangal!</string>
+		<key>latitude</key>
+		<real>17.969413</real>
+		<key>longitude</key>
+		<real>79.593715</real>
+	</dict>
+</array>
+</plist>

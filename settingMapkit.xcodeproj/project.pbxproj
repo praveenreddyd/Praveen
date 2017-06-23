@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		270030681ED3068700839FAD /* Satellite-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 270030671ED3068700839FAD /* Satellite-100.png */; };
 		27185FF11ECED6E500E7E0D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27185FF01ECED6E500E7E0D3 /* AppDelegate.swift */; };
 		27185FF31ECED6E500E7E0D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27185FF21ECED6E500E7E0D3 /* ViewController.swift */; };
 		27185FF61ECED6E500E7E0D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27185FF41ECED6E500E7E0D3 /* Main.storyboard */; };
 		27185FF81ECED6E500E7E0D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27185FF71ECED6E500E7E0D3 /* Assets.xcassets */; };
 		27185FFB1ECED6E500E7E0D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27185FF91ECED6E500E7E0D3 /* LaunchScreen.storyboard */; };
+		271860041ECED72200E7E0D3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 271860031ECED72200E7E0D3 /* MapKit.framework */; };
+		2718600C1ECEE3E300E7E0D3 /* PinAnnotatins.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2718600B1ECEE3E300E7E0D3 /* PinAnnotatins.swift */; };
+		2718600E1ECEEA1400E7E0D3 /* Places.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2718600D1ECEEA1400E7E0D3 /* Places.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		270030671ED3068700839FAD /* Satellite-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Satellite-100.png"; sourceTree = "<group>"; };
 		27185FED1ECED6E500E7E0D3 /* settingMapkit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = settingMapkit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27185FF01ECED6E500E7E0D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27185FF21ECED6E500E7E0D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,9 @@
 		27185FF71ECED6E500E7E0D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27185FFA1ECED6E500E7E0D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27185FFC1ECED6E500E7E0D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		271860031ECED72200E7E0D3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		2718600B1ECEE3E300E7E0D3 /* PinAnnotatins.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinAnnotatins.swift; sourceTree = "<group>"; };
+		2718600D1ECEEA1400E7E0D3 /* Places.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Places.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				271860041ECED72200E7E0D3 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +47,10 @@
 		27185FE41ECED6E500E7E0D3 = {
 			isa = PBXGroup;
 			children = (
+				2718600B1ECEE3E300E7E0D3 /* PinAnnotatins.swift */,
 				27185FEF1ECED6E500E7E0D3 /* settingMapkit */,
 				27185FEE1ECED6E500E7E0D3 /* Products */,
+				271860021ECED72200E7E0D3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,9 +70,19 @@
 				27185FF41ECED6E500E7E0D3 /* Main.storyboard */,
 				27185FF71ECED6E500E7E0D3 /* Assets.xcassets */,
 				27185FF91ECED6E500E7E0D3 /* LaunchScreen.storyboard */,
+				2718600D1ECEEA1400E7E0D3 /* Places.plist */,
 				27185FFC1ECED6E500E7E0D3 /* Info.plist */,
+				270030671ED3068700839FAD /* Satellite-100.png */,
 			);
 			path = settingMapkit;
+			sourceTree = "<group>";
+		};
+		271860021ECED72200E7E0D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				271860031ECED72200E7E0D3 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,7 +117,13 @@
 				TargetAttributes = {
 					27185FEC1ECED6E500E7E0D3 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 8G2FXK5C72;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -123,8 +150,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				270030681ED3068700839FAD /* Satellite-100.png in Resources */,
 				27185FFB1ECED6E500E7E0D3 /* LaunchScreen.storyboard in Resources */,
 				27185FF81ECED6E500E7E0D3 /* Assets.xcassets in Resources */,
+				2718600E1ECEEA1400E7E0D3 /* Places.plist in Resources */,
 				27185FF61ECED6E500E7E0D3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +167,7 @@
 			files = (
 				27185FF31ECED6E500E7E0D3 /* ViewController.swift in Sources */,
 				27185FF11ECED6E500E7E0D3 /* AppDelegate.swift in Sources */,
+				2718600C1ECEE3E300E7E0D3 /* PinAnnotatins.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +292,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8G2FXK5C72;
 				INFOPLIST_FILE = settingMapkit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = praveen.settingMapkit;
@@ -274,6 +305,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8G2FXK5C72;
 				INFOPLIST_FILE = settingMapkit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = praveen.settingMapkit;
@@ -301,6 +333,7 @@
 				271860011ECED6E500E7E0D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
