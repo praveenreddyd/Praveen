@@ -16,6 +16,7 @@
 		271860041ECED72200E7E0D3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 271860031ECED72200E7E0D3 /* MapKit.framework */; };
 		2718600C1ECEE3E300E7E0D3 /* PinAnnotatins.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2718600B1ECEE3E300E7E0D3 /* PinAnnotatins.swift */; };
 		2718600E1ECEEA1400E7E0D3 /* Places.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2718600D1ECEEA1400E7E0D3 /* Places.plist */; };
+		27295DF71EFCF247008F40DE /* NEWFORTESTINGTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27295DF61EFCF247008F40DE /* NEWFORTESTINGTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		271860031ECED72200E7E0D3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		2718600B1ECEE3E300E7E0D3 /* PinAnnotatins.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinAnnotatins.swift; sourceTree = "<group>"; };
 		2718600D1ECEEA1400E7E0D3 /* Places.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Places.plist; sourceTree = "<group>"; };
+		27295DF61EFCF247008F40DE /* NEWFORTESTINGTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEWFORTESTINGTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 		27185FE41ECED6E500E7E0D3 = {
 			isa = PBXGroup;
 			children = (
+				27295DF61EFCF247008F40DE /* NEWFORTESTINGTableViewCell.swift */,
 				2718600B1ECEE3E300E7E0D3 /* PinAnnotatins.swift */,
 				27185FEF1ECED6E500E7E0D3 /* settingMapkit */,
 				27185FEE1ECED6E500E7E0D3 /* Products */,
@@ -167,6 +170,7 @@
 			files = (
 				27185FF31ECED6E500E7E0D3 /* ViewController.swift in Sources */,
 				27185FF11ECED6E500E7E0D3 /* AppDelegate.swift in Sources */,
+				27295DF71EFCF247008F40DE /* NEWFORTESTINGTableViewCell.swift in Sources */,
 				2718600C1ECEE3E300E7E0D3 /* PinAnnotatins.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
